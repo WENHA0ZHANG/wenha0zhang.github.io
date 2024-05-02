@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wenhao Zhang / Wenhao2Vec"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Wenhao Zhang"
-description              : &description "PhD student at NUS"
+name                     : &name "Your Name"
+description              : &description "personal description"
 url                      : https://wenha0zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wenha0zhang/wenhaozhang.github.io"
