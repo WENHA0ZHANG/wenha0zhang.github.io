@@ -21,7 +21,7 @@ repository               : "wenha0zhang/wenhaozhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_wenhao.png"
+  avatar           : "profile_zhang.png"
   name             : "Wenhao Zhang 张文浩"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student at BUDS_Lab@NUS"
