@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "WenhaoZhang2Vec"
+title                    : "Wenhao Zhang // Hi"
 title_separator          : "-"
 name                     : &name "Wenhao Zhang"
 description              : &description "PhD Student at BUDS_Lab@NUS"
@@ -21,7 +21,7 @@ repository               : "wenha0zhang/wenhaozhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_zhang.png"
+  avatar           : "profile_wenhao.png"
   name             : "Wenhao Zhang 张文浩"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student at BUDS_Lab@NUS"
