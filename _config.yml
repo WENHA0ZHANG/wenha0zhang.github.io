@@ -32,20 +32,18 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=11jU6YIAAAAJ"
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Wenhao-Zhang-55"
-
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=11jU6YIAAAAJ"
+  
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/WENHA0ZHANG"
-  kaggle           : "https://www.kaggle.com/wenha0zhang"
-  stackoverflow    : "https://stackoverflow.com/users/22940588/wenhao-zhang"    
-
+  github           : "https://github.com/WENHA0ZHANG"  
+  linkedin         : "https://www.linkedin.com/in/wenhao-zhang-861490257/"
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
@@ -56,7 +54,6 @@ author:
   keybase          : # Username
   Instagram        : "https://www.instagram.com/swa77y/"
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/wenhao-zhang-861490257/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -71,7 +68,9 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # URL
-
+  
+  kaggle           : "https://www.kaggle.com/wenha0zhang"
+  stackoverflow    : "https://stackoverflow.com/users/22940588/wenhao-zhang"  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
