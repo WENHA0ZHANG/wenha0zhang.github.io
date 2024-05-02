@@ -19,7 +19,7 @@ Education
 
 Work experience
 ======
-* 2024 to present: PhD Researcher, National University of Singapore
+* 2024 to present: Ph.D. Researcher, National University of Singapore
 * 2023 to 2024: Technical Writer, DesignBuilder Software Ltd.
 * 2021 to 2022: Energy Consultant, China Academy of Building Research
 
