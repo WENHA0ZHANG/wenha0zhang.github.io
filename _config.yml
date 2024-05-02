@@ -47,7 +47,7 @@ author:
   stackoverflow    : "https://stackoverflow.com/users/22940588/wenhao-zhang"    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
