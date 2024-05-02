@@ -10,7 +10,6 @@ redirect_from:
 {% include base_path %}
 
 * [Download English CV](https://wenha0zhang.github.io/wenhaozhang.github.io/assets/Curriculum_Vitae.pdf)
-# * [下载中文简历](https://wenha0zhang.github.io/wenhaozhang.github.io/assets/Curriculum_Vitae.pdf)
 
 Education
 ======
