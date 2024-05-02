@@ -43,7 +43,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "https://github.com/WENHA0ZHANG"  
-  linkedin         : #"https://www.linkedin.com/in/wenhao-zhang-861490257/"
+  linkedin         : "https://www.linkedin.com/in/wenhao-zhang-861490257/"
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
@@ -70,7 +70,7 @@ author:
   zhihu            : # URL
   
   kaggle           : "https://www.kaggle.com/wenha0zhang"
-  stackoverflow    : "https://stackoverflow.com/users/22940588/wenhao-zhang"  
+  stackoverflow    : #"https://stackoverflow.com/users/22940588/wenhao-zhang"  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
