@@ -7,18 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student from [School of EECS](https://eecs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). My research interest includes computer vision, computer graphics, machine learning, and computational photography.
+Wenhao Zhang is a first-year Ph.D student from [Department of The Built Environment](https://cde.nus.edu.sg/dbe/), [National University of Singapore](https://nus.edu.sg/). My research interest includes reinforcement learning, energy-efficient control, and indoor thermal comfort. He currently works on natural language processing, wearable devices, and recommendation system.
 
-I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
+He is supervised by Prof. Clayton Miller of [BUDS Lab](https://budslab.org/) from [College of Design and Engineering](https://cde.nus.edu.sg/), National University of Singapore. He was advised by [Dr. Rui Tang](https://profiles.ucl.ac.uk/82724) from [The Bartlett School of Environment, Energy and Resources](https://www.ucl.ac.uk/bartlett/environment-energy-resources/bartlett-school-environment-energy-and-resources), University College London, and [Dr. Zhiang Zhang](https://research.nottingham.edu.cn/en/persons/zhiang-zhang) from [Department of Architecture and Built Environment](https://www.nottingham.edu.cn/en/science-engineering/departments-schools/abe/home.aspx), University of Nottingham Ningbo China.
 
 You can find my CV here: [Wenhao's Curriculum Vitae](https://wenha0zhang.github.io/wenhaozhang.github.io/cv).
 
-[Email](mailto:XX@stu.pku.edu.cn) / [Github](https://github.com/QiuDi233) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
-
 Recent News
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+∙ [2024-04] One paper accepted by [Journal of Building Engineering](https://www.sciencedirect.com/journal/journal-of-building-engineering)<br />
+∙ [2024-01] Join [BUDS Lab](https://budslab.org/) as a Ph.D. student with NUS-UCB Research Scholarship <br />
+∙ [2023-12] Awarded [Best Degree Mark Award](https://www.ucl.ac.uk/bartlett/environmental-design/news/2023/jun/designbuilder-award-honours-smart-buildings-and-digital-engineering-msc-students) (Top 1 in the master program)<br />
+∙ [2023-06] Awarded [DesignBuilder Award](https://www.ucl.ac.uk/bartlett/environmental-design/news/2023/jun/designbuilder-award-honours-smart-buildings-and-digital-engineering-msc-students) Final Winner<br />
+∙ [2021-05] One paper is accepted to [ICIP 2021](https://www.2021.ieeeicip.org)
 
 
