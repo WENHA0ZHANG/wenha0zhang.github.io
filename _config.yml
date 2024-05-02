@@ -42,8 +42,8 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/WENHA0ZHANG"  
-  linkedin         : "https://www.linkedin.com/in/wenhao-zhang-861490257/"
+  github           : "WENHA0ZHANG"  
+  linkedin         : "wenhao-zhang-861490257"
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
@@ -52,7 +52,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  Instagram        : swa77y
+  Instagram        : "swa77y"
   lastfm           : # Username
   mastodon         : # URL
   medium           : # URL
@@ -69,7 +69,7 @@ author:
   youtube          : # Username
   zhihu            : # URL
   
-  kaggle           : "https://www.kaggle.com/wenha0zhang"
+  kaggle           : "wenha0zhang"
   stackoverflow    : #"https://stackoverflow.com/users/22940588/wenhao-zhang"  
 
 # Site Settings
