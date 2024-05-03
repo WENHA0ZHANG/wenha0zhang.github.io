@@ -1,6 +1,6 @@
 ---
-title: "Strange Art Collection 2023"
-excerpt: "Some strange arts in 2023...<br/><img src='/images/sac_2023.png'>"
+title: "Strange Art Collection 2022"
+excerpt: "Some strange arts in 2022...<br/><img src='/images/sac_2023.png'>"
 collection: portfolio
 ---
 
