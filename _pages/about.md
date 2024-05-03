@@ -15,7 +15,7 @@ You can find my CV here: [Wenhao's Curriculum Vitae](https://wenha0zhang.github.
 
 Recent News
 ======
-∙ [2024-04] One paper accepted by [Journal of Building Engineering](https://www.sciencedirect.com/journal/journal-of-building-engineering)<br />
+∙ [2024-04] One paper published by [Journal of Building Engineering](https://www.sciencedirect.com/journal/journal-of-building-engineering)<br />
 ∙ [2024-01] Join [BUDS Lab](https://budslab.org/) as a Ph.D. student with NUS-UCB Research Scholarship <br />
 ∙ [2023-12] Awarded [Best Degree Mark Award](https://wenha0zhang.github.io/assets/bseer_prize_letter.pdf) (Top 1 in Master Program)<br />
 ∙ [2023-08] Start my journey at [DesignBuilder Software Ltd.](https://designbuilder.co.uk/) as a technical writer<br />
