@@ -3,7 +3,7 @@ title: "Energy Efficient Operation Optimization of Building Air-conditioners via
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Developed an energy efficient operation strategy for VRF system during the cooling season for a case office and achieved energy savings of up to 16.1% as well as improved thermal comfort compared to a rule-based control strategy.'
-date: 2022-04-12
+date: 2022-08-11
 venue: 'IOP Conference Series Earth and Environmental Science'
 paperurl: 'https://iopscience.iop.org/article/10.1088/1755-1315/1048/1/012006'
 citation: 'Wenhao Zhang and Zhiang Zhang 2022 IOP Conf. Ser.: Earth Environ. Sci. 1048 012006.'
