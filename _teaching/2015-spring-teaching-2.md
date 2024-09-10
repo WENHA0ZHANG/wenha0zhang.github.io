@@ -1,7 +1,7 @@
 ---
 title: "Mentorship"
 collection: teaching
-type: "Student Mentoring"
+type: "Student mentoring"
 permalink: /teaching/2015-spring-teaching-1
 venue: "in National University of Singapore"
 date: 
