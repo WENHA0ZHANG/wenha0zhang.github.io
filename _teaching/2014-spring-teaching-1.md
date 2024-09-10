@@ -1,7 +1,7 @@
 ---
-title: "Teaching"
+title: "Undergraduate Course"
 collection: teaching
-type: "Undergraduate Course"
+type: "Teaching"
 permalink: /teaching/2014-spring-teaching-1
 venue: "National University of Singapore, Department of The Built Environment"
 date: 2024-09-01
