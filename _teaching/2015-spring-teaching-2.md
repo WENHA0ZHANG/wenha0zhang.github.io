@@ -8,5 +8,7 @@ date: 2024-05-01
 location: "Singapore"
 ---
 
+Current Student:
 
+Shiqi DU, NUS, B.Sc. Project and Facilities Management, 2024.
 
