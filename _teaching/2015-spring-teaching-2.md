@@ -4,7 +4,7 @@ collection: teaching
 type: "Student mentoring"
 permalink: /teaching/2015-spring-teaching-1
 venue: "National University of Singapore, Department of The Built Environment"
-date: 
+date: 2024-09-01
 location: "Singapore"
 ---
 (Chronologically ordered) Name, University, Degree, Year, Project Title
