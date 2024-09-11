@@ -3,7 +3,7 @@ title: "Mentorship"
 collection: teaching
 type: "Student mentoring"
 permalink: /teaching/2015-spring-teaching-1
-venue: "in National University of Singapore"
+venue: "National University of Singapore, Department of The Built Environment"
 date: 
 location: "Singapore"
 ---
