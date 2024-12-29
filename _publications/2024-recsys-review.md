@@ -5,7 +5,7 @@ permalink: /publication/2024-recsys-review
 excerpt: 'Employ text mining and Natural Language Processing (NLP) techniques to thoroughly examine the connections among these approaches in the context of human-building interaction and occupant context-aware support.'
 date: 2025-01-01
 venue: 'Energy and Buildings'
-paperurl: 'TBC'
+paperurl: 'https://arxiv.org/abs/2411.08734'
 citation: 'W. Zhang, M. Quintana, C. Miller, 2025, Recommender systems and reinforcement learning for human-building interaction and context aware support: A text mining-driven review of scientific literature, Energy and Buildings, 10.48550/arXiv.2411.08734.'
 ---
 
