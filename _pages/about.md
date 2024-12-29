@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Wenhao Zhang is a first-year Ph.D. student from [Department of The Built Environment](https://cde.nus.edu.sg/dbe/), [National University of Singapore](https://nus.edu.sg/). My research interest includes reinforcement learning, energy-efficient control, and indoor thermal comfort. He currently works on natural language processing, wearable devices for indoor thermal comfort, and recommendation system design.
+Wenhao Zhang is a second-year Ph.D. student from [Department of The Built Environment](https://cde.nus.edu.sg/dbe/), [National University of Singapore](https://nus.edu.sg/). My research interest includes reinforcement learning, energy-efficient control, and indoor thermal comfort. He currently works on natural language processing, wearable devices for indoor thermal comfort, and recommendation system design.
 
 He is supervised by Prof. Clayton Miller of [BUDS Lab](https://budslab.org/) from [College of Design and Engineering](https://cde.nus.edu.sg/), National University of Singapore. He was advised by [Dr. Rui Tang](https://profiles.ucl.ac.uk/82724) from [The Bartlett School of Environment, Energy and Resources](https://www.ucl.ac.uk/bartlett/environment-energy-resources/bartlett-school-environment-energy-and-resources), University College London, and [Dr. Zhiang Zhang](https://research.nottingham.edu.cn/en/persons/zhiang-zhang) from [Department of Architecture and Built Environment](https://www.nottingham.edu.cn/en/science-engineering/departments-schools/abe/home.aspx), University of Nottingham Ningbo China.
 
