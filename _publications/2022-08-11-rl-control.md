@@ -1,7 +1,7 @@
 ---
 title: "Energy Efficient Operation Optimization of Building Air-conditioners via Simulator-assisted Asynchronous Reinforcement Learning"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2022-08-11-rl-control
 excerpt: 'Developed an energy efficient operation strategy for VRF system during the cooling season for a case office and achieved energy savings of up to 16.1% as well as improved thermal comfort compared to a rule-based control strategy.'
 date: 2022-08-11
 venue: 'IOP Conference Series Earth and Environmental Science'
