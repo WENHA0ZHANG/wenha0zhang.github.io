@@ -1,7 +1,7 @@
 ---
 title: "Recommender systems and reinforcement learning for human-building interaction and context aware support: A text mining-driven review of scientific literature"
 collection: publications
-permalink: /publication/2024-recsys-review
+permalink: /publication/2024-12-31-recsys-review
 excerpt: 'Employ text mining and Natural Language Processing (NLP) techniques to thoroughly examine the connections among these approaches in the context of human-building interaction and occupant context-aware support.'
 date: 2024-12-31
 venue: 'Energy and Buildings'
