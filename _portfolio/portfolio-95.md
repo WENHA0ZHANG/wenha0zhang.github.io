@@ -1,6 +1,6 @@
 ---
 title: "Sakura 2024"
-excerpt: "A sakura-tinted paper. <br/><img src='/images/sac2024.png'>"
+excerpt: "A sakura-tinted paper. <br/><img src='/images/sakura2024.png'>"
 collection: portfolio
 ---
 
