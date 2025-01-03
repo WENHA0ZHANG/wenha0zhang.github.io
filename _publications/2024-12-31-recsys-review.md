@@ -14,3 +14,5 @@ citation: 'W. Zhang, M. Quintana, C. Miller, 2024, Recommender systems and reinf
 **Keywords:** Reinforcement Learning; Recommendation Systems; Human-Building Interaction; Occupant-Centric; Building Energy Efficiency; Word Embeddings; Natural Language Processing
 
 **Full text available at:** [arXiv](https://arxiv.org/abs/2411.08734); [ScienceDirect](https://www-sciencedirect-com.libproxy1.nus.edu.sg/science/article/pii/S037877882401363X)
+
+**Code and dataset:** [Github](https://github.com/buds-lab/recommender-sys-for-buildings-textmining-review)
