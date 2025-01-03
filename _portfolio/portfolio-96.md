@@ -4,6 +4,6 @@ excerpt: "For the second set of Cozie experiment name alphabet - Tengwar.<br/><i
 collection: portfolio
 ---
 
-The second Cozie Experiment Name Alphabet based on the word Tengwar from The Lord of the Rings.
+The second Cozie Experiment Name Alphabet uses the Tengwar script from The Lord of the Rings.
 
 <img src="/images/cozieinside.png" alt="Cozie Merchandise Design 2024" width="500">
