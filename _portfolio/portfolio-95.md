@@ -6,6 +6,6 @@ collection: portfolio
 
 Welcome to visit my sakura, pink ocean, pink venom, lake hillier... 
 
-<img src="/images/recsyslinkedin.png" alt="Sakura 2024" width="500"/>
+<img src="/images/recsyslinkedin.png" alt="Sakura 2024" width="550"/>
 
 Full text available at: [arXiv](https://arxiv.org/abs/2411.08734) and [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S037877882401363X).
