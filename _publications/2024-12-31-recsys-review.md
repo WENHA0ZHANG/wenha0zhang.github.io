@@ -15,4 +15,4 @@ citation: 'W. Zhang, M. Quintana, C. Miller, 2024, Recommender systems and reinf
 
 **Full text available at:** [arXiv](https://arxiv.org/abs/2411.08734); [ScienceDirect](https://www-sciencedirect-com.libproxy1.nus.edu.sg/science/article/pii/S037877882401363X)
 
-**Code and dataset available at:** [Github](https://github.com/buds-lab/recommender-sys-for-buildings-textmining-review)
+**Code and dataset available at:** [GitHub](https://github.com/buds-lab/recommender-sys-for-buildings-textmining-review)
