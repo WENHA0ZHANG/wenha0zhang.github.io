@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wenhao Zhang :)"
+title                    : "Wenhao Zhang o.O"
 title_separator          : "-"
 name                     : &name "Wenhao Zhang"
-description              : &description "Ph.D. Student at BUDS_Lab@NUS"
+description              : &description "Ph.D. Candidate"
 url                      : https://wenha0zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wenha0zhang/wenha0zhang.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile_zhang.png"
   name             : "Wenhao Zhang 张文浩"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student at BUDS_Lab@NUS"
+  bio              : "Ph.D. Candidate"
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
