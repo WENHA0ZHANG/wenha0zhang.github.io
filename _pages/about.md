@@ -21,7 +21,7 @@ Recent News
 ∙ [2025-04] Our paper led by Xiaojun Fan, titled ["Bedroom ventilation and air quality during sleep: Insights from a pilot field study in Singapore"](https://www.researchgate.net/publication/394052941_Bedroom_ventilation_and_air_quality_during_sleep_Insights_from_a_pilot_field_study_in_Singapore) is accepted by Healthy Building Conference 2025.<br />
 ∙ [2024-12] One paper published by [Energy and Buildings](https://www.sciencedirect.com/science/article/pii/S037877882401363X).<br />
 ∙ [2024-04] One paper published by [Journal of Building Engineering](https://www.sciencedirect.com/science/article/pii/S2352710224010659?via%3Dihub).<br />
-∙ [2024-01] Join [BUDS Lab](https://budslab.org/) as a Ph.D. student with [HEATS (Heat Exposure, AcTivity, and Sleep) Project](https://www.linkedin.com/pulse/heats-project-stefano-schiavon-mfk5c/). <br />
+∙ [2024-01] Join National University of Singapore as a Ph.D. student with [HEATS (Heat Exposure, AcTivity, and Sleep) Project](https://www.linkedin.com/pulse/heats-project-stefano-schiavon-mfk5c/). <br />
 ∙ [2023-12] Awarded [Best Degree Mark Award](https://wenha0zhang.github.io/assets/bseer_prize_letter.pdf) (Top 1 in Master Program).<br />
 
 
