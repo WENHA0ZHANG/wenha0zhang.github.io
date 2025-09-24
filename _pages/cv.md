@@ -19,14 +19,19 @@ Education
 
 Work experience
 ======
-* 2024 to present: Research Associate, National University of Singapore
+* 2024 to present: Doctoral Researcher, National University of Singapore
 * 2023 to 2024: Technical Writer, DesignBuilder Software Ltd.
 * 2021 to 2022: Energy Consultant, China Academy of Building Research
 
 Selected Awards
 ======
+* Gold Medal & Most Efficient AI Algorithm Award, 2025, by Global AI Challenge for Building E&M Facilities
 * NUS-UCB Research Scholarship, 2024, by National University of Singapore, and University of California, Berkeley
 * Best Overall Degree Mark Award, 2023, by University College London
 * UCL-DesignBuilder Award, 2023, by University College London, and DesignBuilder Software Ltd.
 * Dean’s Scholarship, 2021, by University of Nottingham
+
+Services
+======
+* Web Chair of the 13th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys 2026)
 
