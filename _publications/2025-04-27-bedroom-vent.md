@@ -2,7 +2,7 @@
 title: "Bedroom ventilation and air quality during sleep: Insights from a pilot field study in Singapore"
 collection: publications
 permalink: /publication/2025-04-27-bedroom-vent
-excerpt: 'This study investigated bedroom ventilation and air quality in Singapore's tropical climate. Comfort parameters along with multiple air pollutants were measured in seven bedrooms, each for approximately one month.'
+excerpt: 'This study investigated bedroom ventilation and air quality in Singapore's tropical climate.'
 date: 2025-04-27
 venue: 'Healthy Building Conference 2025'
 paperurl: 'https://www.researchgate.net/publication/394052941_Bedroom_ventilation_and_air_quality_during_sleep_Insights_from_a_pilot_field_study_in_Singapore'
