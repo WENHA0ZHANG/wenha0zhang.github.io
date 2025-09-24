@@ -1,5 +1,5 @@
 ---
-title: "PF3211 AI Applications for the Built Environment [2410]"
+title: "PF3211 AI Applications for the Built Environment"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2425-sem1-teaching-1
