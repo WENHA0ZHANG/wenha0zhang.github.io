@@ -1,5 +1,5 @@
 ---
-title: "Field evaluation of body thermoregulation-based dynamic bedroom air temperature control to improve sleep"
+title: "Poster Abstract: Field evaluation of body thermoregulation-based dynamic bedroom air temperature control to improve sleep"
 collection: publications
 permalink: /publication/2025-11-11-buildsys-thermoreg
 excerpt: 'This poster abstract presents a pilot field deployment evaluating a body thermoregulation-based dynamic bedroom air temperature control strategy designed for typical Singapore homes.'
