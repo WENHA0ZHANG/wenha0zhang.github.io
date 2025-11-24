@@ -16,6 +16,7 @@ You can find my CV here: [Wenhao's Curriculum Vitae](https://wenha0zhang.github.
 
 Recent News
 ======
+∙ [2025-11] Our poster abstract titled ["Field evaluation of body thermoregulation-based dynamic bedroom air temperature control to improve sleep"](dl.acm.org/doi/10.1145/3736425.3772103) is published in BuildSys ’25.<br />
 ∙ [2025-08] Won the Gold Medal and the Most Efficient AI Algorithm Award at the [Global AI Challenge for Building E&M Facilities 2025](https://www.globalaichallenge.com/en/competition/).<br />
 ∙ [2025-07] Our paper led by Clayton Miller, titled ["Wrist to Rest: A pilot study to characterize sleep habits and bedroom environments using scalable watch-based microsurveys"](https://www.researchgate.net/publication/393870238_Wrist_to_Rest_A_pilot_study_to_characterize_sleep_habits_and_bedroom_environments_using_scalable_watch-based_microsurveys) is accepted by CISBAT 2025.<br />
 ∙ [2025-04] Our paper led by Xiaojun Fan, titled ["Bedroom ventilation and air quality during sleep: Insights from a pilot field study in Singapore"](https://www.researchgate.net/publication/394052941_Bedroom_ventilation_and_air_quality_during_sleep_Insights_from_a_pilot_field_study_in_Singapore) is accepted by Healthy Building 2025.<br />
