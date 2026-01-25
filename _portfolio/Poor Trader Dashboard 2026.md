@@ -1,6 +1,6 @@
 ---
 title: "Poor Trader Dashboard 2026"
-excerpt: "I trade therefore I poor. <br/><img src='/images/poor-trader.jpg'>"
+excerpt: "I trade therefore I poor. <br/><img src='/images/poor-trader-small.png'>"
 collection: portfolio
 ---
 
