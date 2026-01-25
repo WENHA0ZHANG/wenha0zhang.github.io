@@ -16,7 +16,7 @@ You can find my CV here: [Wenhao's Curriculum Vitae](https://wenha0zhang.github.
 
 Recent News
 ======
-∙ [2026-01] Launched the [Poor Trader Dashboard](https://poor-trader-dashboard.onrender.com).<br />
+∙ [2026-01] Launched the [Poor Trader Dashboard](https://poor-trader-dashboard.onrender.com) ([GitHub](https://github.com/WENHA0ZHANG/poor-trader-dashboard)).<br />
 ∙ [2025-11] Our poster abstract titled ["Field evaluation of body thermoregulation-based dynamic bedroom air temperature control to improve sleep"](https://dl.acm.org/doi/10.1145/3736425.3772103) is published in BuildSys’25.<br />
 ∙ [2025-08] Won the Gold Medal and the Most Efficient AI Algorithm Award at the [Global AI Challenge for Building E&M Facilities 2025](https://www.globalaichallenge.com/en/competition/).<br />
 ∙ [2025-07] Our paper led by Clayton Miller, titled ["Wrist to Rest: A pilot study to characterize sleep habits and bedroom environments using scalable watch-based microsurveys"](https://www.researchgate.net/publication/393870238_Wrist_to_Rest_A_pilot_study_to_characterize_sleep_habits_and_bedroom_environments_using_scalable_watch-based_microsurveys) is accepted by CISBAT 2025.<br />
