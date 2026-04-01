@@ -16,6 +16,7 @@ You can find my CV here: [Wenhao's Curriculum Vitae](https://wenha0zhang.github.
 
 Recent News
 ======
+∙ [2026-04] Our paper titled ["Just-in-Time Adaptive Interventions (JITAI) to Improve Indoor Air Quality in Sleep Environments: A Pilot Study"](/publication/2026-04-01-jitai-iaq-sleep) is accepted by Indoor Air 2026.<br />
 ∙ [2026-01] Launched the [Poor Trader Dashboard](https://poor-trader-dashboard.onrender.com) ([GitHub Repositories](https://github.com/WENHA0ZHANG/poor-trader-dashboard)).<br />
 ∙ [2025-11] Our poster abstract titled ["Field evaluation of body thermoregulation-based dynamic bedroom air temperature control to improve sleep"](https://dl.acm.org/doi/10.1145/3736425.3772103) is published in BuildSys’25.<br />
 ∙ [2025-08] Won the Gold Medal and the Most Efficient AI Algorithm Award at the [Global AI Challenge for Building E&M Facilities 2025](https://www.globalaichallenge.com/en/competition/).<br />
