@@ -1,6 +1,6 @@
 ---
-title: "Strange Spring/Summer Collection 2019"
-excerpt: "First anniversary of my little brand. <br/><img src='/images/sac2020.png'>"
+title: "DCSC Spring/Summer Collection 2019"
+excerpt: "<img src='/images/sac2020.png'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Strange Spring/Summer Collection 2021"
-excerpt: "Good old days. <br/><img src='/images/strange_spring_summer_collection_2021.png'>"
+title: "DCSC Spring/Summer Collection 2021"
+excerpt: "<img src='/images/strange_spring_summer_collection_2021.png'>"
 collection: portfolio
 ---
 

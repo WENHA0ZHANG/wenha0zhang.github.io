@@ -1,6 +1,6 @@
 ---
 title: "Cozie Merchandise Design 2024"
-excerpt: "For Cozie Tengwar series.<br/><img src='/images/cozie2024.png'>"
+excerpt: "<img src='/images/cozie2024.png'>"
 collection: portfolio
 ---
 
