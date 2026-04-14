@@ -2,10 +2,8 @@
 title: "Reinforcement Learning in Building Controls: a Comparative Study of Algorithms considering Model Availability and Policy Representation"
 collection: publications
 permalink: /publication/2024-04-30-rl-comparative-study
-excerpt: 'Model-free and model-based reinforcement learning algorithms were implemented; Reinforcement learning of value-based, policy gradient and actor-critic are discussed.'
 date: 2024-04-30
 venue: 'Journal of Building Engineering'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S2352710224010659?via%3Dihub'
 citation: 'Wu, Z., Zhang, W., Tang, R., Wang, H., & Korolija, I. (2024). Reinforcement learning in building controls: A comparative study of algorithms considering model availability and policy representation. Journal of Building Engineering, 90, 109497. doi:10.1016/j.jobe.2024.109497'
 ---
 
