@@ -471,13 +471,13 @@
 
 /* Author Chinese name */
 .author__name-cn {
-  margin: 0;
+  margin: 1em 0 0;
   font-size: 0.85em;
   color: $gray;
   font-family: $sans-serif;
 
   @media screen and (min-width: 925px) {
-    margin-top: -5px;
+    margin-top: 1em;
     margin-bottom: 10px;
   }
 }
