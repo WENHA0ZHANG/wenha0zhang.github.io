@@ -15,7 +15,7 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    overflow-y: auto;
     position: fixed;
     padding-top: $masthead-height;
   }
@@ -80,8 +80,6 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -91,11 +89,11 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 0;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 0;
+      border: none;
     }
   }
 }
@@ -117,6 +115,7 @@
 
 .author__name {
   margin: 0;
+  font-family: $header-font-family;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -124,7 +123,7 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $header-font-family;
   font-size: $type-size-5;
 }
 
@@ -146,11 +145,17 @@
 
 .author__bio {
   margin: 0;
+  font-size: $type-size-6;
+  color: $gray;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+
+.author__follow-btn {
+  display: none !important;
 }
 
 .author__urls-wrapper {
@@ -192,7 +197,7 @@
   border-radius: $border-radius;
   background: #fff;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: 0 0 10px rgba(#000, 0.1);
   cursor: default;
 
   @include breakpoint($large) {
@@ -252,9 +257,19 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    border-bottom: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: $link-color-hover;
     }
+  }
+
+  .social-icons .fa,
+  .social-icons .fab,
+  .social-icons .fas,
+  .social-icons .far,
+  .social-icons .ai {
+    color: $primary-color;
   }
 }

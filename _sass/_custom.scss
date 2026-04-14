@@ -1,0 +1,450 @@
+/* ==========================================================================
+   CUSTOM OVERRIDES — Berkeley-Inspired Minimalist Theme
+   ========================================================================== */
+
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+
+.home-page {
+  padding-bottom: 9em;
+}
+
+.home-hero {
+  padding: 4em 1em 3em;
+  max-width: $x-large;
+  margin: 0 auto;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    max-width: 900px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 2em;
+    }
+  }
+
+  &__text {
+    flex: 1;
+  }
+
+  &__name {
+    font-family: $header-font-family;
+    font-size: 2.8em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 0.2em;
+    letter-spacing: -0.02em;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2.2em;
+    }
+  }
+
+  &__tagline {
+    font-family: $sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: $gray;
+    margin: 0 0 1.5em;
+    letter-spacing: 0.01em;
+  }
+
+  &__links {
+    display: flex;
+    gap: 1.2em;
+
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+
+    a {
+      color: $primary-color;
+      font-size: 1.3em;
+      text-decoration: none;
+      border-bottom: none;
+      opacity: 0.6;
+      -webkit-transition: opacity 0.2s ease;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 1;
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__photo {
+    flex-shrink: 0;
+
+    img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 0;
+      filter: grayscale(30%);
+      -webkit-transition: filter 0.5s ease;
+      transition: filter 0.5s ease;
+
+      &:hover {
+        filter: grayscale(0);
+      }
+
+      @media screen and (max-width: 768px) {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}
+
+.home-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em 4em;
+}
+
+.home-section {
+  margin-bottom: 3em;
+
+  &__title {
+    font-family: $header-font-family;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0 0 1em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.home-about {
+  font-size: 1em;
+  line-height: 1.7;
+  color: $dark-gray;
+
+  a {
+    border-bottom: 1px solid rgba($link-color, 0.3);
+
+    &:hover {
+      border-bottom-color: $link-color;
+    }
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+/* Featured work gallery — grayscale with color on hover */
+.home-gallery {
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2em;
+
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
+    background: $lighter-gray;
+
+    &:hover {
+      border-bottom: none;
+
+      img {
+        filter: grayscale(0);
+        transform: scale(1.03);
+      }
+
+      .home-gallery__caption {
+        opacity: 1;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(100%);
+      -webkit-transition: filter 0.5s ease, transform 0.5s ease;
+      transition: filter 0.5s ease, transform 0.5s ease;
+    }
+  }
+
+  &__caption {
+    display: block;
+    padding: 0.6em 0.8em;
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: $dark-gray;
+    letter-spacing: 0.02em;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+}
+
+/* News timeline */
+.home-news {
+
+  &__list {
+    border-left: 2px solid $border-color;
+    padding-left: 1.5em;
+    margin-left: 0.5em;
+  }
+
+  &__item {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1.85em;
+      top: 0.5em;
+      width: 6px;
+      height: 6px;
+      background: $primary-color;
+      border-radius: 50%;
+    }
+  }
+
+  &__date {
+    flex-shrink: 0;
+    font-family: $monospace;
+    font-size: 0.8rem;
+    color: $gray;
+    min-width: 5em;
+    padding-top: 0.1em;
+  }
+
+  &__text {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: $dark-gray;
+
+    a {
+      border-bottom: 1px solid rgba($link-color, 0.3);
+
+      &:hover {
+        border-bottom-color: $link-color;
+      }
+    }
+  }
+}
+
+
+/* ==========================================================================
+   Portfolio / Image Treatment — Global grayscale
+   ========================================================================== */
+
+.archive__item-teaser img,
+.portfolio-item img {
+  filter: grayscale(100%);
+  -webkit-transition: filter 0.5s ease;
+  transition: filter 0.5s ease;
+}
+
+.archive__item:hover .archive__item-teaser img,
+.portfolio-item:hover img {
+  filter: grayscale(0);
+}
+
+.page__content img {
+  filter: grayscale(100%);
+  -webkit-transition: filter 0.5s ease;
+  transition: filter 0.5s ease;
+
+  &:hover {
+    filter: grayscale(0);
+  }
+}
+
+
+/* ==========================================================================
+   Footer — Minimal
+   ========================================================================== */
+
+.page__footer {
+  background-color: #fff;
+  border-top: 1px solid $border-color;
+  color: $gray;
+  margin-top: 0;
+
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em 1em;
+  }
+}
+
+.page__footer-follow {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: $type-size-7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  a {
+    color: $gray;
+    border-bottom: none;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.page__footer-copyright {
+  font-size: $type-size-8;
+  color: $light-gray;
+}
+
+
+/* ==========================================================================
+   Archive / Publication Pages — Cleaner
+   ========================================================================== */
+
+.archive {
+  a {
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.archive__item {
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid $lighter-gray;
+}
+
+.archive__item-title {
+  font-family: $header-font-family;
+  font-weight: 600;
+  font-size: 1.1em;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+.archive__item:hover .archive__item-title {
+  text-decoration: none;
+
+  a {
+    color: $link-color-hover;
+  }
+}
+
+.archive__item-excerpt {
+  font-size: $type-size-6;
+  color: $gray;
+  line-height: 1.6;
+}
+
+.archive__subtitle {
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $gray;
+}
+
+
+/* ==========================================================================
+   General overrides
+   ========================================================================== */
+
+/* Ensure nav links have no bottom border */
+.masthead a,
+.greedy-nav a {
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+/* Social icons monochrome */
+.social-icons .fa,
+.social-icons .fab,
+.social-icons .fas,
+.social-icons .far,
+.social-icons .ai {
+  color: $primary-color;
+}
+
+/* Page content links style refinement */
+.page__content .wordwrap a {
+  border-bottom: 1px solid rgba($link-color, 0.3);
+
+  &:hover {
+    border-bottom-color: $link-color;
+  }
+}
+
+/* Author profile on non-home pages */
+.sidebar .author__avatar img {
+  filter: grayscale(20%);
+  -webkit-transition: filter 0.3s ease;
+  transition: filter 0.3s ease;
+
+  &:hover {
+    filter: grayscale(0);
+  }
+}
+
+/* Publication page specific */
+.page__date {
+  font-size: $type-size-6;
+  color: $gray;
+}
+
+/* Buttons should never have bottom border */
+a.btn,
+.btn a {
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+/* Smooth page transitions */
+#main {
+  -webkit-animation: intro 0.3s both;
+  animation: intro 0.3s both;
+  animation-delay: 0.35s;
+}

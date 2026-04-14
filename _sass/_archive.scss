@@ -15,13 +15,14 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 0 10px rgba(#000, 0.15);
       }
     }
   }
@@ -41,7 +42,8 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family;
+  font-weight: 600;
 
   a + a {
     opacity: 0.5;
@@ -76,11 +78,11 @@
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: 0 0 10px rgba(#000, 0.15);
   }
 
   .archive__item-title {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
