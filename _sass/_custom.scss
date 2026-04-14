@@ -469,6 +469,28 @@
   }
 }
 
+/* Archive intro links (e.g., Google Scholar line on Publications page) */
+.archive .wordwrap a {
+  text-decoration: underline;
+  text-decoration-color: rgba($link-color, 0.4);
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: $link-color;
+  }
+}
+
+/* CV/body links on archive layout pages */
+.archive .page__content a {
+  text-decoration: underline;
+  text-decoration-color: rgba($link-color, 0.4);
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: $link-color;
+  }
+}
+
 /* Author Chinese name */
 .author__name-cn {
   margin: 3px 0;
