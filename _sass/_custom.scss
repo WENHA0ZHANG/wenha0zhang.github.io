@@ -374,45 +374,31 @@
 }
 
 .archive__item-meta {
-  font-size: 0.7em;
+  font-size: 0.75em;
   color: $gray;
   margin: 0.15em 0 0.3em;
   line-height: 1.4;
   font-family: $sans-serif;
-  font-weight: 400;
 }
 
 .archive__item-excerpt {
-  font-size: 0.62em;
+  font-size: 0.375em;
   color: $gray;
   line-height: 1.5;
   margin: 0.2em 0 0.3em;
-  font-weight: 400;
 
   p {
     margin: 0;
     font-size: 1em;
-    font-weight: 400;
-  }
-
-  strong,
-  b {
-    font-weight: 400;
   }
 }
 
 .archive__item-citation {
-  font-size: 0.66em;
+  font-size: 0.7em;
   color: $light-gray;
   line-height: 1.4;
   margin: 0.2em 0 0;
   word-break: break-all;
-  font-weight: 400;
-
-  strong,
-  b {
-    font-weight: 400;
-  }
 }
 
 .archive__subtitle {
@@ -425,38 +411,24 @@
 
 /* Single page venue/date meta */
 .page__venue-meta {
-  font-size: 0.72em;
+  font-size: 0.8em;
   color: $gray;
   margin: 0 0 0.5em;
   font-family: $sans-serif;
-  font-weight: 400;
 }
 
 /* Single page citation */
 .page__citation {
-  font-size: 0.68em;
+  font-size: 0.78em;
   color: $gray;
   line-height: 1.5;
   word-break: break-all;
-  font-weight: 400;
-
-  strong,
-  b {
-    font-weight: 400;
-  }
 }
 
 /* Single page content — body text slightly smaller */
 .page__content {
   p, li, dl {
-    font-size: 0.86em;
-    color: $gray;
-    font-weight: 400;
-  }
-
-  strong,
-  b {
-    font-weight: 400;
+    font-size: 0.92em;
   }
 }
 
@@ -499,14 +471,14 @@
 
 /* Author Chinese name */
 .author__name-cn {
-  margin: 4px 0 7px;
+  margin: 0;
   font-size: 0.85em;
   color: $gray;
   font-family: $sans-serif;
 
   @media screen and (min-width: 925px) {
-    margin-top: 6px;
-    margin-bottom: 9px;
+    margin-top: -5px;
+    margin-bottom: 10px;
   }
 }
 
