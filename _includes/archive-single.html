@@ -35,7 +35,7 @@
     </h2>
     
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="archive__item-meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
         {% if post.collection == 'teaching' %}
@@ -43,21 +43,21 @@
         {% elsif post.collection == 'publications' %}
           <p class="archive__item-meta">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
-         <p class="archive__item-meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <p class="archive__item-meta"><time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></p>
     {% endif %}
     
     {% if post.citation and post.paperurl %}
-      <p class="archive__item-meta">Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
+      <p class="archive__item-citation">Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
     {% elsif post.citation %}
-      <p class="archive__item-meta">Recommended citation: {{ post.citation }} </p>
+      <p class="archive__item-citation">Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p class="archive__item-meta wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
+      <p class="archive__item-citation">Download <a href=" {{ post.paperurl }} ">here</a></p>
     {% endif %}
 
   </article>

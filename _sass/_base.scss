@@ -117,6 +117,7 @@ a {
   text-decoration: underline;
   text-decoration-color: rgba($link-color, 0.4);
   text-underline-offset: 2px;
+  border-bottom: none;
   -webkit-transition: $global-transition;
   transition: $global-transition;
 
@@ -304,7 +305,12 @@ nav {
   }
 
   a {
-    text-decoration: none !important;
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   /* override white-space for nested lists */

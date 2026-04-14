@@ -66,13 +66,14 @@
     a {
       color: $primary-color;
       font-size: 1.3em;
-      text-decoration: none !important;
+      text-decoration: none;
       opacity: 0.6;
       -webkit-transition: opacity 0.2s ease;
       transition: opacity 0.2s ease;
 
       &:hover {
         opacity: 1;
+        text-decoration: none;
       }
     }
   }
@@ -157,10 +158,11 @@
     position: relative;
     overflow: hidden;
     display: block;
-    text-decoration: none !important;
+    text-decoration: none;
     background: $lighter-gray;
 
     &:hover {
+      text-decoration: none;
 
       img {
         filter: grayscale(0);
@@ -309,10 +311,12 @@
 
   a {
     color: $gray;
-    text-decoration: none !important;
+    text-decoration: none;
+    border-bottom: none;
 
     &:hover {
       color: $primary-color;
+      text-decoration: none;
     }
   }
 }
@@ -329,12 +333,11 @@
 
 .archive {
   a {
-    text-decoration: underline;
-    text-decoration-color: rgba($link-color, 0.4);
-    text-underline-offset: 2px;
+    text-decoration: none;
+    border-bottom: none;
 
     &:hover {
-      text-decoration-color: $link-color-hover;
+      text-decoration: none;
     }
   }
 }
@@ -349,10 +352,12 @@
   font-family: $header-font-family;
   font-weight: 600;
   font-size: 1.1em;
+  margin-bottom: 0.2em;
 
   a {
     color: $text-color;
-    text-decoration: none !important;
+    text-decoration: none;
+    border-bottom: none;
 
     &:hover {
       color: $link-color-hover;
@@ -369,20 +374,31 @@
 }
 
 .archive__item-meta {
-  font-family: $sans-serif;
-  font-size: 0.8em;
+  font-size: 0.75em;
   color: $gray;
-  margin: 0.3em 0 0.5em;
-  line-height: 1.5;
-  font-weight: 400;
+  margin: 0.15em 0 0.3em;
+  line-height: 1.4;
+  font-family: $sans-serif;
 }
 
 .archive__item-excerpt {
-  font-family: $sans-serif;
-  font-size: 0.8em;
+  font-size: 0.75em;
   color: $gray;
-  line-height: 1.6;
-  margin-top: 0.3em;
+  line-height: 1.5;
+  margin: 0.2em 0 0.3em;
+
+  p {
+    margin: 0;
+    font-size: 1em;
+  }
+}
+
+.archive__item-citation {
+  font-size: 0.7em;
+  color: $light-gray;
+  line-height: 1.4;
+  margin: 0.2em 0 0;
+  word-break: break-all;
 }
 
 .archive__subtitle {
@@ -391,6 +407,29 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: $gray;
+}
+
+/* Single page venue/date meta */
+.page__venue-meta {
+  font-size: 0.8em;
+  color: $gray;
+  margin: 0 0 0.5em;
+  font-family: $sans-serif;
+}
+
+/* Single page citation */
+.page__citation {
+  font-size: 0.78em;
+  color: $gray;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+/* Single page content — body text slightly smaller */
+.page__content {
+  p, li, dl {
+    font-size: 0.92em;
+  }
 }
 
 
@@ -402,9 +441,11 @@
 .masthead a,
 .greedy-nav a {
   text-decoration: none;
+  border-bottom: none;
 
   &:hover {
     text-decoration: none;
+    border-bottom: none;
   }
 }
 
@@ -428,14 +469,17 @@
   }
 }
 
-/* Author Chinese name below English name */
+/* Author Chinese name */
 .author__name-cn {
-  font-family: $sans-serif;
+  margin: 0;
   font-size: 0.85em;
   color: $gray;
-  margin: -0.3em 0 0.5em;
-  font-weight: 400;
-  letter-spacing: 0.1em;
+  font-family: $sans-serif;
+
+  @media screen and (min-width: 925px) {
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
 }
 
 /* Author profile on non-home pages */
@@ -458,6 +502,53 @@
 /* Buttons should never have underline */
 a.btn,
 .btn a {
+  text-decoration: none;
+  border-bottom: none;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+/* Archive title links: no underline */
+.archive__item-title a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Gallery links: no underline */
+.home-gallery__item {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Hero icon links: no underline */
+.home-hero__links a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Sidebar links: no underline */
+.author__urls a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Footer links: no underline */
+.page__footer a {
   text-decoration: none;
 
   &:hover {
