@@ -7,8 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="portfolio-grid">
+{% assign sorted_portfolio = site.portfolio | sort: 'title' | reverse %}
+{% for post in sorted_portfolio %}
+  <div class="portfolio-card">
+    <a href="{{ base_path }}{{ post.url }}">
+      <div class="portfolio-card__image-wrap">
+        {% assign excerpt_img = post.excerpt | split: "src='" | last | split: "'" | first %}
+        {% if excerpt_img contains "/" %}
+          <img src="{{ excerpt_img }}" alt="{{ post.title }}" loading="lazy">
+        {% endif %}
+      </div>
+    </a>
+    <div class="portfolio-card__info">
+      <h3 class="portfolio-card__title">
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      {% assign clean_excerpt = post.excerpt | strip_html | truncatewords: 20 %}
+      <p class="portfolio-card__excerpt">{{ clean_excerpt }}</p>
+    </div>
+  </div>
 {% endfor %}
-
+</div>
