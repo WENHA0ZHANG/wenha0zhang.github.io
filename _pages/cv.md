@@ -11,6 +11,8 @@ redirect_from:
 
 * [Download English CV](https://wenha0zhang.github.io/assets/Curriculum_Vitae.pdf)
 
+A concise record of my academic training, research positions, awards, and service.
+
 Education
 ======
 * Ph.D. in Built Environment, National University of Singapore, 2024

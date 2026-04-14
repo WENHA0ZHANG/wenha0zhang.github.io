@@ -96,4 +96,26 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // Quiet reveal for curated homepage sections.
+  if ("IntersectionObserver" in window) {
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15
+    });
+
+    document.querySelectorAll(".reveal-on-scroll").forEach(function(element) {
+      revealObserver.observe(element);
+    });
+  } else {
+    document.querySelectorAll(".reveal-on-scroll").forEach(function(element) {
+      element.classList.add("is-visible");
+    });
+  }
+
 });
