@@ -114,8 +114,9 @@ blockquote {
 
 a {
   color: $link-color;
-  text-decoration: none;
-  border-bottom: 1px solid rgba($link-color, 0.3);
+  text-decoration: underline;
+  text-decoration-color: rgba($link-color, 0.4);
+  text-underline-offset: 2px;
   -webkit-transition: $global-transition;
   transition: $global-transition;
 
@@ -131,7 +132,7 @@ a {
   &:active {
     outline: 0;
     color: $link-color-hover;
-    border-bottom-color: $link-color-hover;
+    text-decoration-color: $link-color-hover;
   }
 }
 
@@ -303,8 +304,7 @@ nav {
   }
 
   a {
-    text-decoration: none;
-    border-bottom: none;
+    text-decoration: none !important;
   }
 
   /* override white-space for nested lists */

@@ -22,7 +22,8 @@ repository               : "wenha0zhang/wenha0zhang.github.io"
 author:
   # Biographic information
   avatar           : "profile_zhang.png"
-  name             : "Wenhao Zhang 张文浩"
+  name             : "Wenhao Zhang"
+  name_cn          : "张文浩"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate"
   location         : "Singapore"

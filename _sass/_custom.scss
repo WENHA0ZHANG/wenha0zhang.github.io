@@ -66,15 +66,13 @@
     a {
       color: $primary-color;
       font-size: 1.3em;
-      text-decoration: none;
-      border-bottom: none;
+      text-decoration: none !important;
       opacity: 0.6;
       -webkit-transition: opacity 0.2s ease;
       transition: opacity 0.2s ease;
 
       &:hover {
         opacity: 1;
-        border-bottom: none;
       }
     }
   }
@@ -128,10 +126,12 @@
   color: $dark-gray;
 
   a {
-    border-bottom: 1px solid rgba($link-color, 0.3);
+    text-decoration: underline;
+    text-decoration-color: rgba($link-color, 0.4);
+    text-underline-offset: 2px;
 
     &:hover {
-      border-bottom-color: $link-color;
+      text-decoration-color: $link-color;
     }
   }
 
@@ -157,12 +157,10 @@
     position: relative;
     overflow: hidden;
     display: block;
-    text-decoration: none;
-    border-bottom: none;
+    text-decoration: none !important;
     background: $lighter-gray;
 
     &:hover {
-      border-bottom: none;
 
       img {
         filter: grayscale(0);
@@ -241,10 +239,12 @@
     color: $dark-gray;
 
     a {
-      border-bottom: 1px solid rgba($link-color, 0.3);
+      text-decoration: underline;
+      text-decoration-color: rgba($link-color, 0.4);
+      text-underline-offset: 2px;
 
       &:hover {
-        border-bottom-color: $link-color;
+        text-decoration-color: $link-color;
       }
     }
   }
@@ -309,7 +309,7 @@
 
   a {
     color: $gray;
-    border-bottom: none;
+    text-decoration: none !important;
 
     &:hover {
       color: $primary-color;
@@ -329,11 +329,12 @@
 
 .archive {
   a {
-    text-decoration: none;
-    border-bottom: none;
+    text-decoration: underline;
+    text-decoration-color: rgba($link-color, 0.4);
+    text-underline-offset: 2px;
 
     &:hover {
-      text-decoration: none;
+      text-decoration-color: $link-color-hover;
     }
   }
 }
@@ -351,8 +352,7 @@
 
   a {
     color: $text-color;
-    text-decoration: none;
-    border-bottom: none;
+    text-decoration: none !important;
 
     &:hover {
       color: $link-color-hover;
@@ -368,10 +368,21 @@
   }
 }
 
+.archive__item-meta {
+  font-family: $sans-serif;
+  font-size: 0.8em;
+  color: $gray;
+  margin: 0.3em 0 0.5em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .archive__item-excerpt {
-  font-size: $type-size-6;
+  font-family: $sans-serif;
+  font-size: 0.8em;
   color: $gray;
   line-height: 1.6;
+  margin-top: 0.3em;
 }
 
 .archive__subtitle {
@@ -387,13 +398,13 @@
    General overrides
    ========================================================================== */
 
-/* Ensure nav links have no bottom border */
+/* Ensure nav links have no underline */
 .masthead a,
 .greedy-nav a {
-  border-bottom: none;
+  text-decoration: none;
 
   &:hover {
-    border-bottom: none;
+    text-decoration: none;
   }
 }
 
@@ -408,11 +419,23 @@
 
 /* Page content links style refinement */
 .page__content .wordwrap a {
-  border-bottom: 1px solid rgba($link-color, 0.3);
+  text-decoration: underline;
+  text-decoration-color: rgba($link-color, 0.4);
+  text-underline-offset: 2px;
 
   &:hover {
-    border-bottom-color: $link-color;
+    text-decoration-color: $link-color;
   }
+}
+
+/* Author Chinese name below English name */
+.author__name-cn {
+  font-family: $sans-serif;
+  font-size: 0.85em;
+  color: $gray;
+  margin: -0.3em 0 0.5em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
 }
 
 /* Author profile on non-home pages */
@@ -432,13 +455,13 @@
   color: $gray;
 }
 
-/* Buttons should never have bottom border */
+/* Buttons should never have underline */
 a.btn,
 .btn a {
-  border-bottom: none;
+  text-decoration: none;
 
   &:hover {
-    border-bottom: none;
+    text-decoration: none;
   }
 }
 
