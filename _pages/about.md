@@ -1,30 +1,117 @@
 ---
 permalink: /
-title: "About Me"
-author_profile: true
+layout: home
+title: "Wenhao Zhang"
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<<<<<<< HEAD
 Wenhao Zhang is a Ph.D. cnadidate from [Department of The Built Environment](https://cde.nus.edu.sg/dbe/), [National University of Singapore](https://nus.edu.sg/). His research interest includes occupant-centric controls and indoor thermal comfort. He currently works on just-in-time adaptive intervention for indoor comfort, dynamic bedroom environment optimization during sleep, and cold-start personal comfort model design. Before joining the NUS, he worked at [DesignBuilder Software Ltd](https://designbuilder.co.uk/), where he was responsible for developing training content for DesignBuilder scripting tools.
+=======
+{% include base_path %}
+>>>>>>> 02f41fd06a8fc0e459375fd63d903a33c4fdc4e1
 
-He is currently supervised by [Prof. Clayton Miller](https://cis.smu.edu.sg/faculty/profile/8346/clayton-miller) of [BUDS (Building and Urban Data Science) Lab](https://budslab.org/) from Singapore Management University, [Prof. Adrian Chong](https://cde.nus.edu.sg/dbe/staff/adrian-chong-dr/) of [IDEAS (Integrated Data, Energy Analysis + Simulation) Lab](https://ideaslab.io/) from the National University of Singapore, and [Prof. Stefano Schiavon](https://ced.berkeley.edu/people/stefano-schiavon) from the University of California, Berkeley. Previously, he was advised by [Dr. Rui Tang](https://profiles.ucl.ac.uk/82724) from the University College London, and [Dr. Zhiang Zhang](https://research.nottingham.edu.cn/en/persons/zhiang-zhang) from the University of Nottingham Ningbo China. 
+<div class="home-hero">
+  <div class="home-hero__text">
+    <h1>Wenhao<br/>Zhang</h1>
+    <span class="home-hero__role">Ph.D. Candidate · National University of Singapore</span>
+    <div class="home-hero__bio">
+      <p>Researching occupant-centric controls and indoor thermal comfort. Currently working on just-in-time adaptive intervention for indoor comfort, dynamic bedroom environment optimization during sleep, and cold-start personal comfort model design.</p>
+      <p>Supervised by <a href="https://cis.smu.edu.sg/faculty/profile/8346/clayton-miller">Prof. Clayton Miller</a> (SMU), <a href="https://cde.nus.edu.sg/dbe/staff/adrian-chong-dr/">Prof. Adrian Chong</a> (NUS), and <a href="https://ced.berkeley.edu/people/stefano-schiavon">Prof. Stefano Schiavon</a> (UC Berkeley).</p>
+    </div>
+    <div class="home-hero__links">
+      <a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=11jU6YIAAAAJ"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="{{ base_path }}/cv/"><i class="fas fa-file-alt"></i> CV</a>
+    </div>
+  </div>
+  <div class="home-hero__photo">
+    <img src="{{ base_path }}/images/profile_zhang.png" alt="Wenhao Zhang">
+  </div>
+</div>
 
+<div class="home-divider"><hr/></div>
 
-You can find my CV here: [Wenhao's Curriculum Vitae](https://wenha0zhang.github.io/cv).
+<div class="home-section reveal-on-scroll">
+  <h2 class="home-section__title">Selected Work</h2>
+  <div class="featured-work">
+    {% assign sorted_portfolio = site.portfolio | sort: 'title' | reverse %}
+    {% for post in sorted_portfolio limit:6 %}
+    <a href="{{ base_path }}{{ post.url }}" class="featured-work__item">
+      <div class="featured-work__image">
+        {% assign excerpt_img = post.excerpt | split: "src='" | last | split: "'" | first %}
+        {% if excerpt_img contains "/" %}
+          <img src="{{ excerpt_img }}" alt="{{ post.title }}" loading="lazy">
+        {% else %}
+          <img src="{{ base_path }}/images/placeholder.png" alt="{{ post.title }}" loading="lazy" style="object-fit: contain; padding: 2em; background: #f0f0f0;">
+        {% endif %}
+      </div>
+      <div class="featured-work__overlay">
+        <p class="featured-work__title">{{ post.title }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <a href="{{ base_path }}/portfolio/" class="view-all">View all work →</a>
+</div>
 
-Recent News
-======
-∙ [2026-04] Our paper titled ["Just-in-Time Adaptive Interventions (JITAI) to Improve Indoor Air Quality in Sleep Environments: A Pilot Study"](/publication/2026-04-01-jitai-iaq-sleep) is accepted by Indoor Air 2026.<br />
-∙ [2026-01] Launched the [Poor Trader Dashboard](https://poor-trader-dashboard.onrender.com) ([GitHub Repositories](https://github.com/WENHA0ZHANG/poor-trader-dashboard)).<br />
-∙ [2025-11] Our poster abstract titled ["Field evaluation of body thermoregulation-based dynamic bedroom air temperature control to improve sleep"](https://dl.acm.org/doi/10.1145/3736425.3772103) is published in BuildSys’25.<br />
-∙ [2025-08] Won the Gold Medal and the Most Efficient AI Algorithm Award at the [Global AI Challenge for Building E&M Facilities 2025](https://www.globalaichallenge.com/en/competition/).<br />
-∙ [2025-07] Our paper led by Clayton Miller, titled ["Wrist to Rest: A pilot study to characterize sleep habits and bedroom environments using scalable watch-based microsurveys"](https://www.researchgate.net/publication/393870238_Wrist_to_Rest_A_pilot_study_to_characterize_sleep_habits_and_bedroom_environments_using_scalable_watch-based_microsurveys) is accepted by CISBAT 2025.<br />
-∙ [2025-04] Our paper led by Xiaojun Fan, titled ["Bedroom ventilation and air quality during sleep: Insights from a pilot field study in Singapore"](https://www.researchgate.net/publication/394052941_Bedroom_ventilation_and_air_quality_during_sleep_Insights_from_a_pilot_field_study_in_Singapore) is accepted by Healthy Building 2025.<br />
-∙ [2024-12] One paper published by [Energy and Buildings](https://www.sciencedirect.com/science/article/pii/S037877882401363X).<br />
-∙ [2024-04] One paper published by [Journal of Building Engineering](https://www.sciencedirect.com/science/article/pii/S2352710224010659?via%3Dihub).<br />
-∙ [2024-01] Join National University of Singapore as a Ph.D. student with [HEATS (Heat Exposure, AcTivity, and Sleep) Project](https://heathealth.info/resources/project-heats/). <br />
-∙ [2023-12] Awarded [Best Degree Mark Award](https://wenha0zhang.github.io/assets/bseer_prize_letter.pdf) (Top 1 in Master Program).<br />
+<div class="home-divider"><hr/></div>
 
+<div class="home-section reveal-on-scroll">
+  <h2 class="home-section__title">Recent News</h2>
+  <ul class="news-timeline">
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Apr 2026</span>
+      <div class="news-timeline__content">Paper <a href="/publication/2026-04-01-jitai-iaq-sleep">"Just-in-Time Adaptive Interventions (JITAI) to Improve Indoor Air Quality in Sleep Environments"</a> accepted by <strong>Indoor Air 2026</strong>.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Jan 2026</span>
+      <div class="news-timeline__content">Launched the <a href="https://poor-trader-dashboard.onrender.com">Poor Trader Dashboard</a> — a free market sentiment tracker.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Nov 2025</span>
+      <div class="news-timeline__content">Poster abstract on <a href="https://dl.acm.org/doi/10.1145/3736425.3772103">dynamic bedroom air temperature control</a> published in <strong>BuildSys'25</strong>.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Aug 2025</span>
+      <div class="news-timeline__content">Won <strong>Gold Medal</strong> and <strong>Most Efficient AI Algorithm Award</strong> at the <a href="https://www.globalaichallenge.com/en/competition/">Global AI Challenge for Building E&M Facilities 2025</a>.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Jul 2025</span>
+      <div class="news-timeline__content">Paper <a href="https://www.researchgate.net/publication/393870238">"Wrist to Rest"</a> accepted by <strong>CISBAT 2025</strong>.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Apr 2025</span>
+      <div class="news-timeline__content">Paper on <a href="https://www.researchgate.net/publication/394052941">bedroom ventilation and air quality during sleep</a> accepted by <strong>Healthy Building 2025</strong>.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Dec 2024</span>
+      <div class="news-timeline__content">Paper published in <a href="https://www.sciencedirect.com/science/article/pii/S037877882401363X"><strong>Energy and Buildings</strong></a>.</div>
+    </li>
+    <li class="news-timeline__item">
+      <span class="news-timeline__date">Apr 2024</span>
+      <div class="news-timeline__content">Paper published in <a href="https://www.sciencedirect.com/science/article/pii/S2352710224010659"><strong>Journal of Building Engineering</strong></a>.</div>
+    </li>
+  </ul>
+  <a href="{{ base_path }}/year-archive/" class="view-all">All news →</a>
+</div>
+
+<div class="home-divider"><hr/></div>
+
+<div class="home-section reveal-on-scroll">
+  <h2 class="home-section__title">Research Interests</h2>
+  <div class="home-tags">
+    <span class="home-tag">Occupant-Centric Controls</span>
+    <span class="home-tag">Indoor Thermal Comfort</span>
+    <span class="home-tag">Just-in-Time Adaptive Intervention</span>
+    <span class="home-tag">Bedroom Environment Optimization</span>
+    <span class="home-tag">Personal Comfort Models</span>
+    <span class="home-tag">Reinforcement Learning</span>
+    <span class="home-tag">Building Energy Simulation</span>
+  </div>
+</div>
 
