@@ -155,7 +155,15 @@
 }
 
 .author__follow-btn {
-  display: none !important;
+  display: inline-block;
+  font-size: $type-size-7;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 4px;
+
+  @include breakpoint($large) {
+    display: none !important;
+  }
 }
 
 .author__urls-wrapper {
