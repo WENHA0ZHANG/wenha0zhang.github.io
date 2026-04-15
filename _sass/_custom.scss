@@ -579,6 +579,52 @@ a.btn,
   }
 }
 
+/* Sidebar contact block alignment and icon sizing */
+.sidebar .author__urls {
+  li {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    line-height: 1.35;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  li.author__desktop {
+    display: flex;
+  }
+
+  li a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.35;
+    text-align: left;
+  }
+}
+
+.sidebar .icon-pad-right {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.35em;
+  min-width: 1.35em;
+  padding-right: 0;
+  margin-right: 0.45em;
+  line-height: 1;
+  overflow: visible;
+}
+
+.sidebar .author__urls .fa,
+.sidebar .author__urls .fab,
+.sidebar .author__urls .fas,
+.sidebar .author__urls .far,
+.sidebar .author__urls .ai {
+  font-size: 1em;
+  line-height: 1;
+}
+
 /* Footer links: no underline */
 .page__footer a {
   text-decoration: none;
