@@ -501,6 +501,19 @@
   }
 }
 
+/* Direct archive page content links (e.g., Download English CV) */
+.archive > p a,
+.archive > ul a,
+.archive > ol a {
+  text-decoration: underline;
+  text-decoration-color: rgba($link-color, 0.4);
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: $link-color;
+  }
+}
+
 /* Author Chinese name */
 .author__name-cn {
   margin: 3px 0;

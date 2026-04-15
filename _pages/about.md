@@ -11,16 +11,16 @@ show_news: true
 featured_images:
   - image: "recsyslinkedin.png"
     title: "Recommender Systems for Thermal Comfort"
-    url: "/publication/2024-12-31-recsys-review/"
+    url: "/portfolio/portfolio-95/"
   - image: "cozie2024.png"
     title: "Cozie Merchandise Design"
-    url: "/publication/2025-07-31-heats-cozie/"
+    url: "/portfolio/portfolio-96/"
   - image: "sac_2023.png"
     title: "Strange Art Collection"
     url: "/portfolio/portfolio-97/"
   - image: "global-ai-challenge-2025.jpg"
     title: "Global AI Challenge 2025 - Gold Medal"
-    url: "/posts/2025-08-08-blog-post-1/"
+    url: "/posts/2025/08/global-ai-challenge-2025/"
 news:
   - date: "2026-04"
     text: 'Paper <a href="/publication/2026-04-01-jitai-iaq-sleep/">JITAI to Improve Indoor Air Quality in Sleep Environments</a> accepted by Indoor Air 2026.'
