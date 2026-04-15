@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* <u>[Download English CV](https://wenha0zhang.github.io/assets/Curriculum_Vitae.pdf)</u>
+* [Download English CV](https://wenha0zhang.github.io/assets/Curriculum_Vitae.pdf)
 
 Education
 ======
