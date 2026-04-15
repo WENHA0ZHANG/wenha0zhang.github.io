@@ -253,12 +253,17 @@
   }
 
   li {
+    display: flex;
+    align-items: center;
     white-space: nowrap;
+    margin: 0 0 6px;
   }
 
   a {
-    display: block;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -271,6 +276,15 @@
       text-decoration: none;
       color: $link-color-hover;
     }
+  }
+
+  .icon-pad-right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25em;
+    min-width: 1.25em;
+    padding-right: 0.55em;
   }
 
   .social-icons .fa,
