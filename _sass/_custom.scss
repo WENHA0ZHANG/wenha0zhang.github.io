@@ -593,11 +593,15 @@ a.btn,
 }
 
 /* Sidebar contact block alignment and icon sizing */
+.sidebar .author__bio {
+  margin-bottom: 8px;
+}
+
 .sidebar .author__urls {
   li {
     display: flex;
     align-items: center;
-    margin: 9px 0;
+    margin: 8px 0;
     line-height: 1.35;
     white-space: nowrap;
     text-align: left;
