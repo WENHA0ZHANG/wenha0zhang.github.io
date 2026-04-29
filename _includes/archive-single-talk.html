@@ -37,6 +37,6 @@
     {% endif %}
     {% if post.date %}<p class="archive__item-meta">{{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-meta">{{post.type}}, {{ post.venue }}, {{post.location}}</p>{% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.excerpt %}<div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>{% endif %}
   </article>
 </div>
