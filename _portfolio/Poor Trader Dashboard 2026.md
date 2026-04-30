@@ -6,28 +6,28 @@ collection: portfolio
 
 A free, no-login decision-support dashboard for timing market risk and opportunity. It exists because the poor author cannot afford paid data feeds — so it scrapes free public indicators and stitches them into one panel that highlights when US equities look closer to a buy / bottom setup or a sell / top setup, while leaving the final call to the reader. Try the live webpage at [poortrader.com](https://poortrader.com/). Source on GitHub: [WENHA0ZHANG/poor-trader-dashboard](https://github.com/WENHA0ZHANG/poor-trader-dashboard).
 
-The dashboard is laid out across four numbered pages — clicking the **Poor Trader Dashboard** title in the header always returns to page 01.
+The dashboard is laid out across four numbered pages.
 
-### 01 · Prediction
+### Page 01 · Prediction
 
 The home page and the heart of the system. The left column lists every tracked indicator with its latest reading, top / bottom flag and source — clicking any row loads its full history with shaded extreme zones and per-point colored hover markers. The right column is the live **Poor2Rich score**: a signed number, the active regime (Strong Buy → Strong Risk), and a per-indicator contribution table that explains exactly which signals are pushing the market toward a buy or a risk reading.
 
 <img src="/images/ptrader-page-1.png" alt="Poor Trader Dashboard — Prediction" width="700"/>
 
-### 02 · Market
+### Page 02 · Market
 
 Performance and watchlist tracking. Indices, futures and crypto, plus a fully editable watchlist with 1W / 1M / 3M / 1Y returns and sortable headers (descending → ascending → reset) on every period column. Clicking any stock loads a multi-range price chart with biggest-move dots — and clicking a dot reveals the news around that day, plus the most recent 30 days of headlines for the ticker. Watchlist additions, ordering and column sort persist in the browser, so the view is remembered across visits.
 
 <img src="/images/ptrader-page-2.png" alt="Poor Trader Dashboard — Market" width="700"/>
 
-### 03 · Global Map & News
+### Page 03 · Global Map & News
 
 The world view. An interactive map with colored dots for the major US, European, Developed-Asia and Emerging-Asia indices — hover a country for headlines, click to load that market's full history. Significant moves are pinned on the chart so you can read what was actually happening on the days that moved the most. A general market news feed sits next to the chart to keep context close to the price action.
 
 <img src="/images/ptrader-page-3-1.png" alt="Global market map" width="700"/>
 <img src="/images/ptrader-page-3-2.png" alt="Index detail with news" width="700"/>
 
-### 04 · Signals & History
+### Page 04 · Signals & History
 
 Rules and reference. The **Bull / Bear Alerts** table lists the simple per-indicator thresholds the dashboard uses to flag tops and bottoms, with a one-line rationale for each. Below it, the **Historical Comparison** table lays out every major US equity top and bottom since 2000 — Dot-com, 2008 GFC, 2011 debt-ceiling, 2018 Q4, 2020 COVID, 2022 inflation, 2024 yen-carry, 2025 tariff shock — with the actual readings of HY spread, AAII sentiment, Fear & Greed and PE at each peak vs. trough. Those numbers are the database the in-app thresholds are calibrated against.
 
