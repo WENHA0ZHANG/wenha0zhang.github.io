@@ -9,12 +9,12 @@ redirect_from:
   - /about.html
 show_news: true
 featured_images:
-  - image: "recsyslinkedin.png"
-    title: "Recommender Systems for Thermal Comfort"
-    url: "/portfolio/portfolio-95/"
   - image: "ptrader-cover.png"
     title: "Poor Trader Dashboard"
     url: "/portfolio/Poor%20Trader%20Dashboard%202026/"
+  - image: "recsyslinkedin.png"
+    title: "Recommender Systems for Thermal Comfort"
+    url: "/portfolio/portfolio-95/"
   - image: "sac_2023.png"
     title: "Strange Art Collection"
     url: "/portfolio/portfolio-97/"
