@@ -25,7 +25,7 @@ news:
   - date: "2026-04"
     text: 'Paper <a href="/publication/2026-04-01-jitai-iaq-sleep/">JITAI to Improve Indoor Air Quality in Sleep Environments</a> accepted by Indoor Air 2026.'
   - date: "2026-01"
-    text: 'Launched the <a href="https://poor-trader-dashboard.onrender.com">Poor Trader Dashboard</a>.'
+    text: 'Launched the <a href="https://poortrader.com/">Poor Trader Dashboard</a>.'
   - date: "2025-11"
     text: 'Poster abstract on <a href="https://dl.acm.org/doi/10.1145/3736425.3772103">thermoregulation-based bedroom control</a> published in BuildSys&rsquo;25.'
   - date: "2025-08"
