@@ -4,7 +4,7 @@ excerpt: "<img src='/images/poor-trader-small.png'>"
 collection: portfolio
 ---
 
-A free, no-login decision-support dashboard for timing market risk and opportunity. It exists because the poor author cannot afford paid data feeds — so it scrapes free public indicators and stitches them into one panel that highlights when US equities look closer to a buy / bottom setup or a sell / top setup, while leaving the final call to the reader. Try the live demo at [poortrader.com](https://poortrader.com/), or the legacy mirror at [poor-trader-dashboard.onrender.com](https://poor-trader-dashboard.onrender.com) (first-time load may take 1–2 minutes). Source on GitHub: [WENHA0ZHANG/poor-trader-dashboard](https://github.com/WENHA0ZHANG/poor-trader-dashboard).
+A free, no-login decision-support dashboard for timing market risk and opportunity. It exists because the poor author cannot afford paid data feeds — so it scrapes free public indicators and stitches them into one panel that highlights when US equities look closer to a buy / bottom setup or a sell / top setup, while leaving the final call to the reader. Try the live webpage at [poortrader.com](https://poortrader.com/). Source on GitHub: [WENHA0ZHANG/poor-trader-dashboard](https://github.com/WENHA0ZHANG/poor-trader-dashboard).
 
 The dashboard is laid out across four numbered pages — clicking the **Poor Trader Dashboard** title in the header always returns to page 01.
 
