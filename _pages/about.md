@@ -46,6 +46,6 @@ news:
     text: 'Joined NUS as a Ph.D. student with <a href="https://heathealth.info/resources/project-heats/">Project HEATS</a>.'
 ---
 
-Wenhao Zhang is a Ph.D. Candidate in the [Department of the Built Environment](https://cde.nus.edu.sg/dbe/) at [National University of Singapore](https://nus.edu.sg/). His research focuses on occupant-centric controls and indoor thermal comfort, including just-in-time adaptive interventions, dynamic bedroom environment optimization during sleep, and cold-start personal comfort model design.
+Wenhao Zhang is a Ph.D. Candidate in the [Department of the Built Environment](https://cde.nus.edu.sg/dbe/) at [National University of Singapore](https://nus.edu.sg/). His research focuses on occupant-centric controls and indoor thermal comfort, including just-in-time adaptive interventions, reinforcement learning, circadian-informed thermal comfort optimization, and advanced algorithms for personal comfort modeling.
 
 He is supervised by [Prof. Clayton Miller](https://cis.smu.edu.sg/faculty/profile/8346/clayton-miller) (SMU), [Prof. Adrian Chong](https://cde.nus.edu.sg/dbe/staff/adrian-chong-dr/) (NUS), and [Prof. Stefano Schiavon](https://ced.berkeley.edu/people/stefano-schiavon) (UC Berkeley). You can find his CV [here](/cv).
