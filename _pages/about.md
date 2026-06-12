@@ -29,9 +29,9 @@ featured_images:
     url: "/portfolio/portfolio-99/"
 news:
   - date: "2026-06"
-    text: 'Paper on <a href="/publication/2026-06-22-scalable-adaptive-ac-control/">scalable adaptive AC control in real sleep environments</a> accepted by ACM Sustainability Week Companion&rsquo;26.'
+    text: 'Paper on <a href="/publication/2026-06-22-scalable-adaptive-ac-control/">scalable adaptive AC control in real sleep environments</a> accepted by ACM BuildSys&rsquo;26.'
   - date: "2026-06"
-    text: 'Paper on <a href="/publication/2026-06-22-indoor-satisfaction-profiles/">indoor satisfaction profiles and LLM-based occupant feedback extraction</a> accepted by ACM Sustainability Week Companion&rsquo;26.'
+    text: 'Paper on <a href="/publication/2026-06-22-indoor-satisfaction-profiles/">workspace satisfaction profiles and LLM-based occupant feedback extraction</a> accepted by ACM BuildSys&rsquo;26.'
   - date: "2026-04"
     text: 'Paper <a href="/publication/2026-04-01-jitai-iaq-sleep/">JITAI to Improve Indoor Air Quality in Sleep Environments</a> accepted by Indoor Air 2026.'
   - date: "2026-01"
@@ -40,12 +40,8 @@ news:
     text: 'Poster abstract on <a href="https://dl.acm.org/doi/10.1145/3736425.3772103">thermoregulation-based bedroom control</a> published in BuildSys&rsquo;25.'
   - date: "2025-08"
     text: 'Won Gold Medal & Most Efficient AI Algorithm Award at <a href="https://www.globalaichallenge.com/en/competition/">Global AI Challenge 2025</a>.'
-  - date: "2025-07"
-    text: 'Paper on <a href="https://www.researchgate.net/publication/393870238">Wrist to Rest</a> accepted by CISBAT 2025.'
-  - date: "2025-04"
-    text: 'Paper on <a href="https://www.researchgate.net/publication/394052941">bedroom ventilation during sleep</a> accepted by Healthy Building 2025.'
   - date: "2024-12"
-    text: 'Paper published in <a href="https://www.sciencedirect.com/science/article/pii/S037877882401363X">Energy and Buildings</a>.'
+    text: 'Paper on <a href="https://www.sciencedirect.com/science/article/pii/S037877882401363X">Recommender systems for human-building interaction</a> published in Energy and Buildings.'
   - date: "2024-01"
     text: 'Joined NUS as a Ph.D. student with <a href="https://heathealth.info/resources/project-heats/">Project HEATS</a>.'
 ---
