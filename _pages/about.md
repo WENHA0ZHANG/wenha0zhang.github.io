@@ -29,13 +29,13 @@ featured_images:
     url: "/portfolio/portfolio-99/"
 news:
   - date: "2026-08"
-    text: 'Paper on <a href="/publication/2026-08-17-dynamic-bedroom-temp-control/">dynamic bedroom air-temperature control for sleep in real homes</a> published in Building and Environment.'
+    text: 'Paper on <a href="https://doi.org/10.1016/j.buildenv.2026.115100">dynamic bedroom air-temperature control for sleep in real homes</a> published in Building and Environment.'
   - date: "2026-06"
-    text: 'Paper on <a href="/publication/2026-06-22-scalable-adaptive-ac-control/">scalable adaptive AC control in real sleep environments</a> accepted by ACM BuildSys&rsquo;26.'
+    text: 'Paper on <a href="https://dl.acm.org/doi/10.1145/3765611.3813761">scalable adaptive AC control in real sleep environments</a> accepted by ACM BuildSys&rsquo;26.'
   - date: "2026-06"
-    text: 'Paper on <a href="/publication/2026-06-22-indoor-satisfaction-profiles/">workspace satisfaction profiles and LLM-based occupant feedback extraction</a> accepted by ACM BuildSys&rsquo;26.'
+    text: 'Paper on <a href="https://dl.acm.org/doi/10.1145/3765611.3815502">workspace satisfaction profiles and LLM-based occupant feedback extraction</a> accepted by ACM BuildSys&rsquo;26.'
   - date: "2026-04"
-    text: 'Paper <a href="/publication/2026-04-01-jitai-iaq-sleep/">JITAI to Improve Indoor Air Quality in Sleep Environments</a> accepted by Indoor Air 2026.'
+    text: 'Paper <a href="https://www.researchgate.net/publication/403402484_Just-in-Time_Adaptive_Interventions_JITAI_to_Improve_Indoor_Air_Quality_in_Sleep_Environments_A_Pilot_Study">JITAI to Improve Indoor Air Quality in Sleep Environments</a> accepted by Indoor Air 2026.'
   - date: "2026-01"
     text: 'Launched the <a href="https://poortrader.com/">Poor Trader Dashboard</a>.'
   - date: "2025-08"
