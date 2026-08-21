@@ -28,6 +28,8 @@ featured_images:
     title: "DCSC Spring/Summer Collection 2019"
     url: "/portfolio/portfolio-99/"
 news:
+  - date: "2026-08"
+    text: 'Paper on <a href="/publication/2026-08-17-dynamic-bedroom-temp-control/">dynamic bedroom air-temperature control for sleep in real homes</a> published in Building and Environment.'
   - date: "2026-06"
     text: 'Paper on <a href="/publication/2026-06-22-scalable-adaptive-ac-control/">scalable adaptive AC control in real sleep environments</a> accepted by ACM BuildSys&rsquo;26.'
   - date: "2026-06"
