@@ -1,7 +1,7 @@
 ---
-title: "Just-in-Time Adaptive Interventions (JITAI) to Improve Indoor Air Quality in Sleep Environments: A Pilot Study"
+title: "Just-in-Time Adaptive Interventions (JITAI) to Improve Indoor Air Quality in Sleep Environments"
 collection: talks
-type: "Conference Talk"
+type: "Conference Presentation"
 permalink: /talks/2026-06-16-talk-indoorair2026
 venue: "Indoor Air 2026"
 date: 2026-06-16
